@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+        .font-serif { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+
+<body class="bg-black">
+   <nav class="sticky top-0 w-full z-50 bg-black/80 backdrop-blur-sm px-12 py-1 flex items-center text-white">
+
+    <div class="font-bold text-lg leading-tight">
+        PLEASURE<br>
+        <span class="text-[8px] tracking-[0.2em] font-light uppercase">Studio Photo</span>
+    </div>
+
+    <div class="hidden md:flex flex-1 justify-end space-x-6 mr-10 text-[10px] font-medium uppercase tracking-[0.15em]">
+        <a href="#home" class="hover:text-gray-400 transition">Beranda</a>
+        <a href="#tentang" class="hover:text-gray-400 transition">Tentang</a>
+        <a href="#layanan" class="hover:text-gray-400 transition">Layanan</a>
+        <a href="#galeri" class="hover:text-gray-400 transition">Galeri</a>
+        <a href="#kontak" class="hover:text-gray-400 transition">Kontak</a>
+    </div>
+
+    <div>
+        <a href="#kontak" class="border border-white/50 px-4 py-1.5 text-[10px] uppercase hover:bg-white hover:text-black transition duration-300">
+            Booking
+        </a>
+    </div>
+</nav>
+
+
+    <header class="relative w-full h-screen overflow-hidden" id="home">
+        
+        <img 
+            src="media/studio.png" 
+            alt="Studio Pleasure" 
+            class="absolute inset-0 w-full h-full object-cover z-0"
+        />
+
+        <div class="absolute inset-0 bg-black/50 z-10"></div>
+
+        <div class="relative z-20 flex flex-col justify-center items-center h-full text-white text-center px-6">
+            <p class="text-xs uppercase tracking-[0.3em] text-gray-300 mb-4">
+                Studio Foto Profesional · Bandung
+            </p>
+            <h1 class="font-serif text-5xl md:text-7xl leading-tight mb-6">
+                Setiap Momen<br>Layak Dikenang
+            </h1>
+            <p class="text-gray-300 text-lg mb-10 max-w-lg">
+                Kami mengabadikan kisah Anda dengan sentuhan seni fotografi terbaik sejak tahun 2015.
+            </p>
+            <div class="flex gap-4">
+                <a href="#galeri"> <button class="border border-white px-8 py-3 text-sm hover:bg-white hover:text-black transition rounded-3xl">Lihat Galeri</button> </a>
+                <a href="#kontak"> <button class="border border-white px-8 py-3 text-sm hover:bg-white hover:text-black transition rounded-3xl">Kontak</button> </a>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="bg-[url('media/ltr.jpg')] bg-cover bg-center bg-no-repeat py-24 px-12 md:px-32" id="tentang">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+        <div class="w-full md:w-1/2">
+            <img 
+                src="media/toko.png" 
+                alt="Tentang Pleasure Studio" 
+                class="rounded-lg shadow-2xl w-full h-[500px] object-cover"
+            >
+        </div>
+
+        <div class="w-full md:w-1/2">
+            <span class="text-gray-500 text-xs uppercase tracking-[0.2em] font-medium mb-4 block">
+                Mengenal Kami
+            </span>
+            
+            <h2 class="font-serif text-4xl md:text-5xl text-black mb-8">
+                Pleasure Studio Photo
+            </h2>
+            
+            <div class="space-y-6 text-gray-700 leading-relaxed text-lg">
+                <p>
+                    Pleasure Studio Photo berdiri sejak 2015 dengan satu visi:
+                    mengabadikan momen berharga dengan standar artistik tertinggi.
+                    Berlokasi di Bandung, kami melayani berbagai kebutuhan fotografi
+                    dengan tim berdedikasi dan peralatan kelas dunia.
+                </p>
+                <p>
+                    Lebih dari sekadar foto — kami menciptakan karya yang bercerita. 
+                    Setiap frame dipikirkan matang dari pencahayaan, komposisi, 
+                    hingga emosi yang terpancarkan.
+                </p>
+            </div>
+
+           
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-[#FAFAF9]" id="layanan">
+    <div class="max-w-6xl mx-auto px-4">
+        
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Layanan Kami</h2>
+        
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
+            
+            <div class="flex flex-col items-center group">
+                <div class="w-24 h-24 bg-[#1C1917] rounded-full flex items-center justify-center mb-4 transition-all duration-300 group-hover:bg-gray-200 group-hover:scale-105">
+                    <svg width="50" height="50" viewBox="0 0 87 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M60.7895 55.7776V64.3587H0V55.7776C0 55.7776 0 38.6153 30.3947 38.6153C60.7895 38.6153 60.7895 55.7776 60.7895 55.7776ZM45.5921 15.0172C45.5921 12.0471 44.7008 9.14369 43.0309 6.67416C41.361 4.20463 38.9875 2.27986 36.2105 1.14326C33.4336 0.00665857 30.3779 -0.290728 27.4299 0.288706C24.4819 0.86814 21.774 2.29837 19.6486 4.39854C17.5232 6.4987 16.0758 9.17447 15.4894 12.0875C14.903 15.0005 15.2039 18.0199 16.3542 20.7639C17.5045 23.5079 19.4523 25.8533 21.9515 27.5033C24.4507 29.1534 27.389 30.0342 30.3947 30.0342C34.4253 30.0342 38.2908 28.452 41.1409 25.6358C43.991 22.8195 45.5921 18.9999 45.5921 15.0172ZM60.5289 38.6153C63.1982 40.6565 65.3824 43.251 66.9278 46.2161C68.4732 49.1812 69.3422 52.4449 69.4737 55.7776V64.3587H86.8421V55.7776C86.8421 55.7776 86.8421 40.2028 60.5289 38.6153ZM56.4474 0.000157878C53.459 -0.0135768 50.5369 0.869132 48.0671 2.5316C50.7047 6.17316 52.1229 10.539 52.1229 15.0172C52.1229 19.4953 50.7047 23.8612 48.0671 27.5027C50.5369 29.1652 53.459 30.0479 56.4474 30.0342C60.478 30.0342 64.3435 28.452 67.1935 25.6358C70.0436 22.8195 71.6447 18.9999 71.6447 15.0172C71.6447 11.0344 70.0436 7.21477 67.1935 4.39854C64.3435 1.5823 60.478 0.000157878 56.4474 0.000157878Z" fill="white"/>
+                    </svg>
+                </div>
+                <span class="text-sm font-medium text-gray-700">Foto Grup</span>
+            </div>
+
+            <div class="flex flex-col items-center group">
+                <div class="w-24 h-24 bg-[#1C1917] rounded-full flex items-center justify-center mb-4 transition-all duration-300 group-hover:bg-gray-200 group-hover:scale-105">
+                    <svg width="50" height="50" viewBox="0 0 88 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M44 0L0 25.9L44 51.8L80.6667 30.2179V57.35H88V25.9L44 0ZM14.663 42.513V59.2C18.0764 63.7974 22.5047 67.5287 27.5966 70.0977C32.6884 72.6668 38.3035 74.0029 43.9963 74C49.6898 74.0034 55.3056 72.6676 60.3981 70.0985C65.4906 67.5295 69.9196 63.7979 73.3333 59.2V42.5167L44 59.7846L14.663 42.513Z" fill="white"/>
+                    </svg>
+                </div>
+                <span class="text-sm font-medium text-gray-700">Foto Wisuda</span>
+            </div>
+
+            <div class="flex flex-col items-center group">
+                <div class="w-24 h-24 bg-[#1C1917] rounded-full flex items-center justify-center mb-4 transition-all duration-300 group-hover:bg-gray-200 group-hover:scale-105">
+                    <svg width="50" height="50" viewBox="0 0 74 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M57.1193 8.91733L49.786 5.06733C43.3473 1.69033 40.128 0 36.6667 0C33.2053 0 29.986 1.68667 23.5473 5.06733L22.3703 5.687L55.088 24.3833L69.8133 17.0133C67.4447 14.3293 63.624 12.3237 57.1193 8.91M72.4093 21.868L57.75 29.2013V40.3333C57.75 41.0627 57.4603 41.7622 56.9445 42.2779C56.4288 42.7936 55.7293 43.0833 55 43.0833C54.2707 43.0833 53.5712 42.7936 53.0555 42.2779C52.5397 41.7622 52.25 41.0627 52.25 40.3333V31.9513L39.4167 38.368V72.9813C42.0493 72.325 45.045 70.7557 49.786 68.266L57.1193 64.416C65.0063 60.2763 68.9517 58.2083 71.1443 54.4867C73.3333 50.7687 73.3333 46.1377 73.3333 36.8867V36.4577C73.3333 29.5167 73.3333 25.1753 72.4093 21.868ZM33.9167 72.9813V38.368L0.924 21.868C3.27826e-07 25.1753 0 29.5167 0 36.4503V36.8793C0 46.1377 -4.37101e-07 50.7687 2.189 54.4867C4.38167 58.2083 8.327 60.28 16.214 64.4197L23.5473 68.266C28.2883 70.7557 31.284 72.325 33.9167 72.9813ZM3.52 17.017L36.6667 33.5903L49.1737 27.3387L16.5917 8.71933L16.214 8.91733C9.713 12.3273 5.88867 14.333 3.52 17.0207" fill="white"/>
+                    </svg>
+                </div>
+                <span class="text-sm font-medium text-gray-700">Foto Produk</span>
+            </div>
+
+            <div class="flex flex-col items-center group">
+                <div class="w-24 h-24 bg-[#1C1917] rounded-full flex items-center justify-center mb-4 transition-all duration-300 group-hover:bg-gray-200 group-hover:scale-105">
+                    <svg width="50" height="50" viewBox="0 0 77 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M30.2061 8.47252C35.8861 0.856522 44.4261 -1.36748 52.2821 0.772521C60.7621 3.08052 68.2181 10.3645 70.6941 20.5085C70.8221 21.0285 70.9327 21.5485 71.0261 22.0685C67.4518 20.7949 63.5641 20.6968 59.9301 21.7885C54.7821 17.9805 48.4061 17.3405 42.7381 19.4285C35.6381 22.0485 30.0941 28.6925 28.8101 37.0525C27.1701 47.7565 33.6901 57.3725 42.9101 65.5485L44.4621 66.8925C43.2101 66.9805 41.9381 66.7845 40.7221 66.5245C40.0973 66.3901 39.4757 66.2407 38.8581 66.0765L36.7101 65.4765C17.6141 60.1045 4.83008 51.7005 1.16208 39.1405C-1.76592 29.1165 1.05008 19.0805 7.24208 12.8405C12.9781 7.06052 21.4821 4.71652 30.2061 8.47252ZM36.7181 38.2645C38.4301 27.0965 51.3461 21.5925 57.9781 31.1765C58.0416 31.2656 58.1377 31.326 58.2455 31.3448C58.3534 31.3635 58.4642 31.339 58.5541 31.2765C68.0621 24.5405 78.3141 34.1285 76.1021 45.2085C74.8221 51.6352 68.8621 56.9685 58.2221 61.2085L56.4821 61.8885L55.4301 62.3205C54.5221 62.6765 53.5621 62.9605 52.6941 62.8085C51.8301 62.6565 51.0261 62.0565 50.2941 61.4165L49.0541 60.2965C39.8007 52.3339 35.6887 44.9899 36.7181 38.2645Z" fill="white"/>
+                    </svg>
+                </div>
+                <span class="text-sm font-medium text-gray-700">Foto Pasangan</span>
+            </div>
+
+            <div class="flex flex-col items-center group">
+                <div class="w-24 h-24 bg-[#1C1917] rounded-full flex items-center justify-center mb-4 transition-all duration-300 group-hover:bg-gray-200 group-hover:scale-105">
+                    <svg width="50" height="50" viewBox="0 0 71 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M56.6667 31.875C57.6701 31.875 58.5119 31.535 59.1919 30.855C59.8719 30.175 60.2107 29.3344 60.2083 28.3333C60.206 27.3322 59.866 26.4917 59.1883 25.8117C58.5107 25.1317 57.6701 24.7917 56.6667 24.7917H46.0417C45.0382 24.7917 44.1976 25.1317 43.52 25.8117C42.8424 26.4917 42.5024 27.3322 42.5 28.3333C42.4976 29.3344 42.8376 30.1762 43.52 30.8585C44.2024 31.5409 45.0429 31.8797 46.0417 31.875H56.6667ZM56.6667 21.25C57.6701 21.25 58.5119 20.91 59.1919 20.23C59.8719 19.55 60.2107 18.7094 60.2083 17.7083C60.206 16.7072 59.866 15.8667 59.1883 15.1867C58.5107 14.5067 57.6701 14.1667 56.6667 14.1667H46.0417C45.0382 14.1667 44.1976 14.5067 43.52 15.1867C42.8424 15.8667 42.5024 16.7072 42.5 17.7083C42.4976 18.7094 42.8376 19.5512 43.52 20.2335C44.2024 20.9159 45.0429 21.2547 46.0417 21.25H56.6667ZM24.7917 31.875C22.6667 31.875 20.7483 32.0674 19.0365 32.4523C17.3247 32.8372 15.8194 33.4416 14.5208 34.2656C13.2812 35.033 12.3368 35.9042 11.6875 36.8794C11.0382 37.8545 10.7135 38.9017 10.7135 40.0208C10.7135 40.7292 10.9792 41.3194 11.5104 41.7917C12.0417 42.2639 12.691 42.5 13.4583 42.5H36.125C36.8924 42.5 37.5417 42.2485 38.0729 41.7456C38.6042 41.2427 38.8698 40.6088 38.8698 39.8438C38.8698 38.8403 38.5451 37.8663 37.8958 36.9219C37.2465 35.9774 36.3021 35.092 35.0625 34.2656C33.7639 33.4392 32.2587 32.8336 30.5469 32.4487C28.8351 32.0639 26.9167 31.8726 24.7917 31.875ZM29.7925 26.2544C31.1808 24.866 31.875 23.1979 31.875 21.25C31.875 19.3021 31.182 17.6351 29.796 16.2492C28.4101 14.8632 26.7419 14.169 24.7917 14.1667C22.8414 14.1643 21.1744 14.8585 19.7908 16.2492C18.4072 17.6399 17.7131 19.3068 17.7083 21.25C17.7036 23.1932 18.3978 24.8613 19.7908 26.2544C21.1839 27.6474 22.8508 28.3404 24.7917 28.3333C26.7325 28.3263 28.4006 27.6333 29.796 26.2544M7.08333 56.6667C5.13542 56.6667 3.46847 55.9737 2.0825 54.5877C0.696528 53.2017 0.00236111 51.5336 0 49.5833V7.08333C0 5.13542 0.694167 3.46847 2.0825 2.0825C3.47083 0.696527 5.13778 0.00236111 7.08333 0H63.75C65.6979 0 67.366 0.694166 68.7544 2.0825C70.1427 3.47083 70.8357 5.13778 70.8333 7.08333V49.5833C70.8333 51.5313 70.1403 53.1994 68.7544 54.5877C67.3684 55.976 65.7003 56.669 63.75 56.6667H7.08333Z" fill="white"/>
+                    </svg>
+                </div>
+                <span class="text-sm font-medium text-gray-700">Pas Foto</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+  <section class="bg-[url('media/ltr.jpg')] bg-cover bg-center bg-no-repeat py-24 px-12" id="galeri">
+    <div class="gap-8 flex flex-col items-center justify-center text-center">
+        
+        <div class="w-full  text-center">
+            <h2 class="text-4xl font-bold text-black drop-shadow-lg">Galeri Karya Kami</h2>
+            <p class="text-gray-700 mt-3 drop-shadow-md">Setiap bingkai adalah cerita. Berikut adalah kumpulan momen berharga yang telah kami abadikan dengan penuh dedikasi.</p>
+        </div>
+
+        <div class="w-full flex overflow-x-auto gap-6 pb-6">
+            <div class="shrink-0 w-80 h-96 rounded-2xl overflow-hidden shadow-xl border-2 border-white/20">
+                <img src="media/galeri1.png" class="w-full h-full object-cover">
+            </div>
+            <div class="shrink-0 w-80 h-96 rounded-2xl overflow-hidden shadow-xl border-2 border-white/20">
+                <img src="media/galeri2.png" class="w-full h-full object-cover">
+            </div>
+            <div class="shrink-0 w-80 h-96 rounded-2xl overflow-hidden shadow-xl border-2 border-white/20">
+                <img src="media/galeri3.png" class="w-full h-full object-cover">
+           </div>
+            <div class="snap-center shrink-0 w-80 md:w-96 rounded-2xl overflow-hidden shadow-xl h-96 border-2 border-white/20">
+                <img src="media/galeri4.png" alt="Portfolio 4" class="w-full h-full object-cover">
+            </div>
+            <div class="snap-center shrink-0 w-80 md:w-96 rounded-2xl overflow-hidden shadow-xl h-96 border-2 border-white/20">
+                <img src="media/galeri5.png" alt="Portfolio 5" class="w-full h-full object-cover">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="kontak" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-12">
+            
+            <div>
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Hubungi Kami</h2>
+                <p class="text-gray-600 mb-8">Punya pertanyaan atau ingin booking jadwal? Jangan ragu untuk menghubungi tim kami melalui saluran di bawah ini.</p>
+                
+                <div class="space-y-4">
+                    <div class="flex items-center">
+                        <span class="text-xl mr-4">📍</span>
+                        <p>Jl. Lembah Pinus No. 123, Bandung</p>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-xl mr-4">📧</span>
+                        <p>studiophotopleasure@gmail.com</p>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-xl mr-4">📱</span>
+                        <p> +62 882 0014 00934</p>
+                    </div>
+                </div>
+            </div>
+
+           <form action="https://formspree.io/f/mqejwrpo" method="POST" class="space-y-4">
+    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+        
+        <div class="mb-4">
+            <label class="block text-sm font-medium mb-1">Nama Lengkap</label>
+            <input type="text" name="nama" required class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-black outline-none" placeholder="Masukkan nama Anda">
+        </div>
+
+        <div class="mb-4">
+            <label class="block text-sm font-medium mb-1">Email</label>
+            <input type="email" name="email" required class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-black outline-none" placeholder="anda@email.com">
+        </div>
+
+        <div class="mb-6">
+            <label class="block text-sm font-medium mb-1">Pesan</label>
+            <textarea name="pesan" required class="w-full p-3 border rounded-lg h-32 focus:ring-2 focus:ring-black outline-none" placeholder="Tuliskan kebutuhan foto Anda"></textarea>
+        </div>
+        
+        <button type="submit" class="w-full bg-black text-white p-4 rounded-xl hover:bg-stone-800 transition">
+            Kirim Pesan Booking
+        </button>
+    </div>
+</form>
+
+        </div>
+    </div>
+</section>
+
+<footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12 text-center md:text-left">
+        
+        <div>
+            <h3 class="text-2xl font-serif font-bold mb-4">PLEASURE</h3>
+            <p class="text-gray-400 text-sm">Abadikan momen berharga Anda bersama kami. Profesionalitas dan kualitas adalah prioritas kami.</p>
+        </div>
+
+        <div>
+            <h4 class="font-semibold mb-4 text-gray-200">Menu Utama</h4>
+            <ul class="space-y-2 text-gray-400 text-sm">
+                <li><a href="#home" class="hover:text-white transition">Beranda</a></li>
+                <li><a href="#tentang" class="hover:text-white transition">Tentang Kami</a></li>
+                <li><a href="#layanan" class="hover:text-white transition">Layanan</a></li>
+                <li><a href="#galeri" class="hover:text-white transition">Galeri</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h4 class="font-semibold mb-4 text-gray-200">Ikuti Kami</h4>
+            <div class="flex justify-center md:justify-start space-x-4 mb-6">
+                <a href="https://www.instagram.com/syrn4lya__?igsh=dTFjbWV2aGVmemo5" class="hover:opacity-70">Instagram</a>
+                <a href="https://www.tiktok.com/@_ssy1r33n?_r=1&_t=ZS-96lAzgpUCEq" class="hover:opacity-70">Tiktok</a>
+                <a href="https://wa.me/qr/4Q4H2BM4NR6FN1" class="hover:opacity-70">WhatsApp</a>
+            </div>
+            <p class="text-gray-500 text-xs">© 2026 Pleasure Studio Photo. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+        
+    </div>
+</section>
+</body>
+</html>
