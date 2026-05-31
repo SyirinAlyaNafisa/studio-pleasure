@@ -14,3 +14,6 @@ selama proses coding.
 ChatGPT: Saya gunakan untuk mencari referensi dan rekomendasi desain. Namun,
 saya tidak menggunakan desain tersebut secara mentah-mentah, saya melakukan modifikasi
 dan penyesuaian lagi pada tampilan akhirnya agar sesuai dengan keinginan saya sendiri.
+
+# Link Website
+(pleasurestudio.netlify.app)
