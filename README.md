@@ -16,4 +16,4 @@ saya tidak menggunakan desain tersebut secara mentah-mentah, saya melakukan modi
 dan penyesuaian lagi pada tampilan akhirnya agar sesuai dengan keinginan saya sendiri.
 
 # Link Website
-(pleasurestudio.netlify.app)
+[https://pleasurestudio.netlify.app](https://pleasurestudio.netlify.app)
